@@ -23,6 +23,10 @@ body {
   color: blanchedalmond;
   text-align: center;
 }
+.a,
+.f {
+  flex-grow: 1;
+}
 .b {
   min-height: 45vh;
 }
@@ -35,10 +39,6 @@ body {
 .d,
 .e {
   width: 30%;
-}
-.a,
-.f {
-  flex-grow: 1;
 }
 
 @media (min-width: 600px) {
