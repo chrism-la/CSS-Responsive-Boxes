@@ -16,3 +16,21 @@ body {
   color: blanchedalmond;
   text-align: center;
 }
+.a {
+  flex-grow: 1;
+}
+.b {
+  min-height: 35vh;
+}
+.c{
+  width: 33%;
+}
+.d{
+  width: 33%;
+}
+.e{
+  width: 33%;
+}
+.f {
+  flex-grow: 1;
+}
