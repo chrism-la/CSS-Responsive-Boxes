@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: papayawhip;
 }
@@ -8,22 +11,20 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.a, .b, .f {
+.a,
+.b,
+.f {
   background: darkslateblue;
+  width: 100vw;
   margin: 10px;
-  box-sizing: border-box;
   font-size: 60px;
   color: blanchedalmond;
   text-align: center;
 }
-.a {
-  width: 100vw;
-}
 .b {
-  width: 100vw;
   min-height: 35vh;
 }
-.row{
+.row {
   display: flex;
   width: 100vw;
   justify-content: space-between;
@@ -32,13 +33,12 @@ body {
   color: blanchedalmond;
   text-align: center;
 }
-.c, .d, .e{
+.c,
+.d,
+.e {
   background: darkslateblue;
   width: 30%;
 }
-.f {
-  width: 100vw;
-}
 
-@media(min-width:600px){
+@media (min-width: 600px) {
 }
