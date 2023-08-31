@@ -24,17 +24,38 @@ body {
   text-align: center;
 }
 .b {
-  min-height: 35vh;
+  min-height: 45vh;
 }
 .row {
   display: flex;
   justify-content: space-between;
+  min-height: 20vh;
 }
 .c,
 .d,
 .e {
   width: 30%;
 }
+.a,
+.f {
+  flex-grow: 1;
+}
 
 @media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100vw;
+  }
+  .box {
+    width: 75vw;
+    height: 45vh;
+  }
+  .b,
+  .row {
+    min-height: 0vh;
+    height: 32vh;
+  }
 }
