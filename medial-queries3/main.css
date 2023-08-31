@@ -25,3 +25,42 @@ body {
   color: blanchedalmond;
   text-align: center;
 }
+.a{
+  flex-grow: 1;
+}
+.h{
+  flex-grow: 4;
+}
+.row1,
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  min-height: 20vh;
+}
+.b,
+.c,
+.d,
+.e,
+.f,
+.g {
+  width: 30%;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100vw;
+  }
+  .box {
+    width: 75vw;
+    height: 45vh;
+  }
+  .row1,
+  .row2 {
+    min-height: 0vh;
+    height: 33.5vh;
+  }
+}
