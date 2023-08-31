@@ -6,31 +6,32 @@ body {
   height: 100vh;
   background: darkcyan;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .container > div {
   background: darkslateblue;
-  margin: 15px;
+  margin: 10px;
   box-sizing: border-box;
   font-size: 60px;
   color: blanchedalmond;
   text-align: center;
 }
 .a {
-  flex-grow: 1;
+  width: 100vw;
 }
 .b {
+  width: 100vw;
   min-height: 35vh;
 }
 .c{
-  width: 33%;
+  width: 27vw;
 }
 .d{
-  width: 33%;
+  width: 27vw;
 }
 .e{
-  width: 33%;
+  width: 27vw;
 }
 .f {
-  flex-grow: 1;
+  width: 100vw;
 }
