@@ -1,3 +1,29 @@
 body {
   background: blanchedalmond;
+  margin: 0;
+  padding: 0;
+}
+*{
+  outline: 1px solid black;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.a{
+  outline: 1px solid blue;
+  width: 200px;
+  height: 200px;
+}
+.b{
+  outline: 1px solid darkcyan;
+  width: 200px;
+  height: 200px;
+}
+.c{
+  outline: 1px solid darkslateblue;
+  width: 200px;
+  height: 200px;
 }
