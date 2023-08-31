@@ -1,23 +1,27 @@
-body {
+body{
   background: blanchedalmond;
-  margin: 0;
-  padding: 0;
 }
 .container{
+  width: 100%;
+  height: 100vh;
+  background: darkcyan;
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
+}
+.container > div{
+  background: darkslateblue;
+  margin: 15px;
+  box-sizing: border-box;
+  font-size: 60px;
+  color: blanchedalmond;
+  text-align: center;
 }
 .a{
-  background-color: blue;
   flex-grow: 1;
 }
 .b{
-  background-color: darkcyan;
-  flex-grow: 3;
+  flex-grow: 6;
 }
 .c{
-  background-color: darkslateblue;
   flex-grow: 1;
 }
