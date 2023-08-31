@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.container > div {
+.a, .b, .f {
   background: darkslateblue;
   margin: 10px;
   box-sizing: border-box;
@@ -23,15 +23,22 @@ body {
   width: 100vw;
   min-height: 35vh;
 }
-.c{
-  width: 27vw;
+.row{
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin: 10px;
+  font-size: 60px;
+  color: blanchedalmond;
+  text-align: center;
 }
-.d{
-  width: 27vw;
-}
-.e{
-  width: 27vw;
+.c, .d, .e{
+  background: darkslateblue;
+  width: 30%;
 }
 .f {
   width: 100vw;
+}
+
+@media(min-width:600px){
 }
