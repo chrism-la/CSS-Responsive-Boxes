@@ -9,13 +9,15 @@ body {
   height: 100vh;
   background: darkcyan;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 .a,
 .b,
+.c,
+.d,
+.e,
 .f {
   background: darkslateblue;
-  width: 100vw;
   margin: 10px;
   font-size: 60px;
   color: blanchedalmond;
@@ -26,17 +28,11 @@ body {
 }
 .row {
   display: flex;
-  width: 100vw;
   justify-content: space-between;
-  margin: 10px;
-  font-size: 60px;
-  color: blanchedalmond;
-  text-align: center;
 }
 .c,
 .d,
 .e {
-  background: darkslateblue;
   width: 30%;
 }
 
